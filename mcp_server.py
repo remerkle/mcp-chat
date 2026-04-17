@@ -14,7 +14,7 @@ docs = {
 
 from pydantic import Field
 
-# TODO: Write a tool to read a doc
+# TODO (done): Write a tool to read a doc
 @mcp.tool(
     name="read_doc_contents",
     description= "Read the contents of a document and return it as a string."
@@ -28,7 +28,7 @@ def read_document(
 
     return docs[doc_id]
 
-# TODO: Write a tool to edit a doc
+# TODO (done): Write a tool to edit a doc
 
 @mcp.tool(
     name="edit_document",
